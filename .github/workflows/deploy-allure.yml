@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'qa-automation-framework/allure-report/**'
-      - '.github/workflows/deploy-allure.yml'
+  workflow_dispatch:
 
 jobs:
   deploy:
